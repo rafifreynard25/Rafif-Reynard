@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafif Reynard Riyadi - Portofolio Modern</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Style Eksternal -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-cyan-500 selection:text-black relative overflow-x-hidden">
+
+    <!-- Background Glow Effects -->
+    <div class="glow-bg top-[-100px] left-[-100px] bg-cyan-600/20"></div>
+    <div class="glow-bg top-[30%] right-[-100px] bg-indigo-600/20"></div>
+    <div class="glow-bg bottom-[10%] left-[20%] bg-blue-600/15"></div>
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 w-full bg-slate-950/70 backdrop-blur-xl border-b border-slate-800/80 z-50 transition-all duration-300" id="navbar">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="font-extrabold text-xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+                Rafif<span class="text-white">.dev</span>
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-400">
+                <a href="#about" class="hover:text-cyan-400 transition-colors">Tentang</a>
+                <a href="#skills" class="hover:text-cyan-400 transition-colors">Keahlian</a>
+                <a href="#projects" class="hover:text-cyan-400 transition-colors">Proyek</a>
+                <a href="#certificates" class="hover:text-cyan-400 transition-colors">Sertifikat</a>
+                <a href="#contact" class="hover:text-cyan-400 transition-colors">Kontak</a>
+            </nav>
+            <a href="#contact" class="hidden md:inline-flex items-center gap-2 text-xs font-semibold bg-slate-900 border border-slate-700 hover:border-cyan-500 px-4 py-2 rounded-full transition-all">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                Tersedia untuk Proyek
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="pt-36 pb-20 px-6 max-w-6xl mx-auto flex flex-col justify-center min-h-[90vh]">
+        <div class="inline-flex items-center gap-2 bg-cyan-950/60 border border-cyan-800/60 text-cyan-400 text-xs font-semibold px-4 py-1.5 rounded-full w-fit mb-6 shadow-lg shadow-cyan-950/50">
+            <i class="fa-solid fa-code"></i> Software & Game Developer Student
+        </div>
+        <h1 class="text-4xl md:text-7xl font-extrabold tracking-tight mb-4">
+            Halo, Saya <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-500">Rafif Reynard Riyadi</span>
+        </h1>
+        <h2 class="text-2xl md:text-3xl text-slate-300 font-semibold mb-6 flex items-center gap-2">
+            Spesialisasi di <span id="typing-text" class="text-cyan-400 border-r-2 border-cyan-400 pr-1"></span>
+        </h2>
+        <p class="text-slate-400 max-w-2xl text-base md:text-lg mb-8 leading-relaxed">
+            Siswa PPLG di SMK Plus Pelita Nusantara. Berfokus pada arsitektur web modern, eksplorasi logika pemrograman, pengembangan game, serta integrasi teknologi cloud.
+        </p>
+        
+        <!-- CTA & Social Buttons -->
+        <div class="flex flex-wrap items-center gap-4">
+            <a href="#projects" class="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold px-7 py-3.5 rounded-xl transition-all shadow-lg shadow-cyan-500/25 hover:scale-[1.02]">
+                Eksplorasi Karya <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+            <a href="#contact" class="bg-slate-900 border border-slate-800 hover:border-cyan-500/50 text-slate-300 hover:text-white px-6 py-3.5 rounded-xl transition-all">
+                Hubungi Saya
+            </a>
+            <div class="flex items-center gap-3 ml-0 md:ml-4 border-l border-slate-800 pl-4 py-1">
+                <a href="https://github.com" target="_blank" class="text-slate-400 hover:text-cyan-400 text-xl transition-colors"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" class="text-slate-400 hover:text-cyan-400 text-xl transition-colors"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <!-- Quick Stats Badge -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16 pt-8 border-t border-slate-900">
+            <div>
+                <p class="text-3xl font-extrabold text-cyan-400">4+</p>
+                <p class="text-xs text-slate-500 uppercase tracking-wider font-medium">Web Projects</p>
+            </div>
+            <div>
+                <p class="text-3xl font-extrabold text-cyan-400">10+</p>
+                <p class="text-xs text-slate-500 uppercase tracking-wider font-medium">Sertifikasi & Pelatihan</p>
+            </div>
+            <div>
+                <p class="text-3xl font-extrabold text-cyan-400">PPLG</p>
+                <p class="text-xs text-slate-500 uppercase tracking-wider font-medium">SMK Pelita Nusantara</p>
+            </div>
+            <div>
+                <p class="text-3xl font-extrabold text-cyan-400">Depok</p>
+                <p class="text-xs text-slate-500 uppercase tracking-wider font-medium">Jawa Barat, ID</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-24 px-6 max-w-6xl mx-auto border-t border-slate-900 reveal">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+            <div>
+                <h2 class="text-3xl font-extrabold text-white mb-2">🛠️ Stack Tech & Keahlian</h2>
+                <p class="text-slate-400 text-sm">Perangkat lunak dan bahasa pemrograman yang biasa saya gunakan.</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            <div class="skill-card">
+                <i class="fa-brands fa-php text-2xl text-indigo-400 mb-2"></i>
+                <h3 class="font-bold text-slate-200">PHP & Laravel</h3>
+                <p class="text-xs text-slate-500">Backend Development</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-js text-2xl text-yellow-400 mb-2"></i>
+                <h3 class="font-bold text-slate-200">JavaScript</h3>
+                <p class="text-xs text-slate-500">Interactive Logic</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-react text-2xl text-cyan-400 mb-2"></i>
+                <h3 class="font-bold text-slate-200">React Native</h3>
+                <p class="text-xs text-slate-500">Mobile Apps</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt text-2xl text-blue-400 mb-2"></i>
+                <h3 class="font-bold text-slate-200">Tailwind CSS</h3>
+                <p class="text-xs text-slate-500">Modern Styling</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-cube text-2xl text-emerald-400 mb-2"></i>
+                <h3 class="font-bold text-slate-200">Three.js</h3>
+                <p class="text-xs text-slate-500">3D Web Graphics</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-database text-2xl text-sky-400 mb-2"></i>
+                <h3 class="font-bold text-slate-200">MySQL</h3>
+                <p class="text-xs text-slate-500">Database Management</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-git-alt text-2xl text-orange-400 mb-2"></i>
+                <h3 class="font-bold text-slate-200">Git & GitHub</h3>
+                <p class="text-xs text-slate-500">Version Control</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-python text-2xl text-blue-500 mb-2"></i>
+                <h3 class="font-bold text-slate-200">Python</h3>
+                <p class="text-xs text-slate-500">Basic Scripts & AI</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-24 px-6 max-w-6xl mx-auto border-t border-slate-900 reveal">
+        <h2 class="text-3xl font-extrabold text-white mb-2">💻 Proyek Pilihan</h2>
+        <p class="text-slate-400 text-sm mb-12">Beberapa aplikasi dan konsep web yang telah saya buat.</p>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div class="project-card group">
+                <div class="h-48 bg-slate-900 border-b border-slate-800 rounded-t-2xl p-6 flex flex-col justify-between relative overflow-hidden">
+                    <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-cyan-500/10 rounded-full blur-2xl group-hover:bg-cyan-500/20 transition-all"></div>
+                    <span class="text-xs font-semibold text-cyan-400 bg-cyan-950/80 border border-cyan-800 px-3 py-1 rounded-full w-fit">Interactive 3D</span>
+                    <i class="fa-solid fa-water text-5xl text-cyan-500/30 group-hover:scale-110 transition-transform"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors">Interactive 3D Ocean Portfolio</h3>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">Portofolio pribadi bertema dunia bawah laut interaktif menggunakan WebGL & Three.js untuk navigasi visual yang dinamis.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-800/60">
+                        <span class="text-xs text-slate-500 font-mono">HTML / CSS / Three.js</span>
+                        <a href="#" class="text-xs font-semibold text-cyan-400 hover:text-cyan-300 flex items-center gap-1">Detail <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card group">
+                <div class="h-48 bg-slate-900 border-b border-slate-800 rounded-t-2xl p-6 flex flex-col justify-between relative overflow-hidden">
+                    <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-indigo-500/10 rounded-full blur-2xl group-hover:bg-indigo-500/20 transition-all"></div>
+                    <span class="text-xs font-semibold text-indigo-400 bg-indigo-950/80 border border-indigo-800 px-3 py-1 rounded-full w-fit">Web Application</span>
+                    <i class="fa-solid fa-check-to-slot text-5xl text-indigo-500/30 group-hover:scale-110 transition-transform"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors">E-Voting Siswa SMK Pelita Nusantara</h3>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">Sistem pemilihan umum OSIS/Siswa berbasis web yang transparan, aman, dan mempermudah rekapitulasi data secara real-time.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-800/60">
+                        <span class="text-xs text-slate-500 font-mono">PHP / MySQL / Tailwind</span>
+                        <a href="#" class="text-xs font-semibold text-indigo-400 hover:text-indigo-300 flex items-center gap-1">Detail <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card group">
+                <div class="h-48 bg-slate-900 border-b border-slate-800 rounded-t-2xl p-6 flex flex-col justify-between relative overflow-hidden">
+                    <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-amber-500/10 rounded-full blur-2xl group-hover:bg-amber-500/20 transition-all"></div>
+                    <span class="text-xs font-semibold text-amber-400 bg-amber-950/80 border border-amber-800 px-3 py-1 rounded-full w-fit">Company Profile Concept</span>
+                    <i class="fa-solid fa-mug-hot text-5xl text-amber-500/30 group-hover:scale-110 transition-transform"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">Kedai Mas Amba - Web Design</h3>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">Konsep desain landing page responsif untuk kedai kopi modern dengan struktur UX yang bersih dan fungsional.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-800/60">
+                        <span class="text-xs text-slate-500 font-mono">HTML5 / Tailwind CSS</span>
+                        <a href="#" class="text-xs font-semibold text-amber-400 hover:text-amber-300 flex items-center gap-1">Detail <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card group">
+                <div class="h-48 bg-slate-900 border-b border-slate-800 rounded-t-2xl p-6 flex flex-col justify-between relative overflow-hidden">
+                    <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-emerald-500/10 rounded-full blur-2xl group-hover:bg-emerald-500/20 transition-all"></div>
+                    <span class="text-xs font-semibold text-emerald-400 bg-emerald-950/80 border border-emerald-800 px-3 py-1 rounded-full w-fit">Logic & Game</span>
+                    <i class="fa-solid fa-gamepad text-5xl text-emerald-500/30 group-hover:scale-110 transition-transform"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors">Card Generator & Mini Game</h3>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">Eksplorasi algoritma PHP dan JS meliputi pembuatan generator kartu otomatis serta permainan interaktif tebak angka.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-800/60">
+                        <span class="text-xs text-slate-500 font-mono">PHP / JavaScript</span>
+                        <a href="#" class="text-xs font-semibold text-emerald-400 hover:text-emerald-300 flex items-center gap-1">Detail <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-24 px-6 max-w-6xl mx-auto border-t border-slate-900 reveal">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-8">
+            <div>
+                <h2 class="text-3xl font-extrabold text-white mb-2">📜 Sertifikasi & Pelatihan</h2>
+                <p class="text-slate-400 text-sm">Bukti partisipasi dan peningkatan kompetensi teknologi.</p>
+            </div>
+            <!-- Filter Category Buttons -->
+            <div class="flex flex-wrap gap-2 mt-4 md:mt-0" id="cert-filters">
+                <button class="cert-btn active" data-filter="all">Semua</button>
+                <button class="cert-btn" data-filter="ai">AI & Tech</button>
+                <button class="cert-btn" data-filter="game">Game Dev</button>
+                <button class="cert-btn" data-filter="softskill">Soft Skills & Karier</button>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-4" id="cert-list">
+            <!-- Sertifikat Baru 1: Generatif AI (CODEPOLITAN) -->
+            <div class="cert-card" data-category="ai">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-[10px] uppercase font-bold text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-800">AI & Tech</span>
+                        <h4 class="font-bold text-slate-200 mt-2">Dasar dan Penggunaan Generatif AI</h4>
+                        <p class="text-xs text-slate-400 mt-1">Penyelenggara: CODEPOLITAN (Supported by Google.org & ADB)</p>
+                    </div>
+                    <span class="text-xs text-slate-500 font-mono whitespace-nowrap">12 Agu 2026[cite: 9]</span>
+                </div>
+            </div>
+
+            <!-- Sertifikat Baru 2: Candidate Green Flag (RuangAI x Better&Co) -->
+            <div class="cert-card" data-category="softskill">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-[10px] uppercase font-bold text-amber-400 bg-amber-950/80 px-2 py-0.5 rounded border border-amber-800">Karier & Soft Skills</span>
+                        <h4 class="font-bold text-slate-200 mt-2">Mini Workshop: Kandidat Green Flag dari PoV Corporate</h4>
+                        <p class="text-xs text-slate-400 mt-1">Penyelenggara: RuangAI by CODEPOLITAN x Better&Co</p>
+                    </div>
+                    <span class="text-xs text-slate-500 font-mono whitespace-nowrap">24 Agu 2026[cite: 10]</span>
+                </div>
+            </div>
+
+            <!-- Cert 3 -->
+            <div class="cert-card" data-category="softskill">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-[10px] uppercase font-bold text-amber-400 bg-amber-950/80 px-2 py-0.5 rounded border border-amber-800">Karier & Soft Skills</span>
+                        <h4 class="font-bold text-slate-200 mt-2">Rahasia Bebas Blank Saat Public Speaking</h4>
+                        <p class="text-xs text-slate-400 mt-1">Penyelenggara: Galeria Potensi Indonesia</p>
+                    </div>
+                    <span class="text-xs text-slate-500 font-mono whitespace-nowrap">30 Agu 2026[cite: 7]</span>
+                </div>
+            </div>
+
+            <!-- Cert 4 -->
+            <div class="cert-card" data-category="softskill">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-[10px] uppercase font-bold text-amber-400 bg-amber-950/80 px-2 py-0.5 rounded border border-amber-800">Karier & Soft Skills</span>
+                        <h4 class="font-bold text-slate-200 mt-2">Seni Merespons dengan Bijak</h4>
+                        <p class="text-xs text-slate-400 mt-1">Penyelenggara: Galeria Potensi Indonesia</p>
+                    </div>
+                    <span class="text-xs text-slate-500 font-mono whitespace-nowrap">06 Agu 2026[cite: 8]</span>
+                </div>
+            </div>
+
+            <!-- Cert 5 -->
+            <div class="cert-card" data-category="ai">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-[10px] uppercase font-bold text-cyan-400 bg-cyan-950/80 px-2 py-0.5 rounded border border-cyan-800">Cloud & Tech</span>
+                        <h4 class="font-bold text-slate-200 mt-2">Pemanfaatan Cloud Computing di Sektor Pendidikan</h4>
+                        <p class="text-xs text-slate-400 mt-1">Penyelenggara: LPPM STT Terpadu Nurul Fikri</p>
+                    </div>
+                    <span class="text-xs text-slate-500 font-mono whitespace-nowrap">22 Okt 2025[cite: 2]</span>
+                </div>
+            </div>
+
+            <!-- Cert 6 -->
+            <div class="cert-card" data-category="game">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-[10px] uppercase font-bold text-indigo-400 bg-indigo-950/80 px-2 py-0.5 rounded border border-indigo-800">Game Dev</span>
+                        <h4 class="font-bold text-slate-200 mt-2">AI & Ethics in Game Development</h4>
+                        <p class="text-xs text-slate-400 mt-1">Penyelenggara: CodeLamp Indonesia</p>
+                    </div>
+                    <span class="text-xs text-slate-500 font-mono whitespace-nowrap">07 Sep 2025[cite: 1]</span>
+                </div>
+            </div>
+
+            <!-- Cert 7 -->
+            <div class="cert-card" data-category="game">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-[10px] uppercase font-bold text-indigo-400 bg-indigo-950/80 px-2 py-0.5 rounded border border-indigo-800">Game Dev</span>
+                        <h4 class="font-bold text-slate-200 mt-2">Market Validation for Indie Developers</h4>
+                        <p class="text-xs text-slate-400 mt-1">Penyelenggara: CodeLamp Indonesia</p>
+                    </div>
+                    <span class="text-xs text-slate-500 font-mono whitespace-nowrap">31 Agu 2025[cite: 3]</span>
+                </div>
+            </div>
+
+            <!-- Cert 8 -->
+            <div class="cert-card" data-category="ai">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-[10px] uppercase font-bold text-cyan-400 bg-cyan-950/80 px-2 py-0.5 rounded border border-cyan-800">Security</span>
+                        <h4 class="font-bold text-slate-200 mt-2">Introduction to Capture the Flag (CTF)</h4>
+                        <p class="text-xs text-slate-400 mt-1">Penyelenggara: ID-Networkers</p>
+                    </div>
+                    <span class="text-xs text-slate-500 font-mono whitespace-nowrap">02 Agu 2025[cite: 4]</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 px-6 max-w-6xl mx-auto border-t border-slate-900 reveal">
+        <div class="bg-gradient-to-r from-slate-900 to-slate-950 border border-slate-800 p-8 md:p-12 rounded-3xl flex flex-col md:flex-row items-center justify-between gap-8">
+            <div>
+                <h2 class="text-3xl font-extrabold text-white mb-3">Tertarik Berkolaborasi? 🤝</h2>
+                <p class="text-slate-400 max-w-md text-sm leading-relaxed">Terbuka untuk proyek website, diskusi game dev, atau kesempatan magang/kolaborasi.</p>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
+                <a href="mailto:rafif@example.com" class="inline-flex items-center justify-center gap-2 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold px-6 py-3.5 rounded-xl transition-all shadow-lg shadow-cyan-500/20 whitespace-nowrap">
+                    <i class="fa-solid fa-envelope"></i> Kirim Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center text-xs text-slate-500 border-t border-slate-900/60">
+        &copy; 2026 Rafif Reynard Riyadi. Crafted with Tailwind CSS, JS & Interactivity.
+    </footer>
+
+    <!-- JavaScript Eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>
